@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans';
+}
+
+.nav_bar {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+	font-family: 'Lobster';
+	font-size: 96px;
+	color: whitesmoke;
+}
+
+.jumbo_tron {
+	background-color: rgb(51, 51, 51);
+	margin: 0;
+}
+
+.parallax {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.photo_1 {
+	background-image: url(../img/photo1.jpeg);
+	height: 100vh;
+}
+
+.photo_2 {
+	background-image: url(../img/photo2.jpeg);
+}
+
+.photo_3 {
+	background-image: url(../img/photo3.jpeg);
+}
+
+.photo_4 {
+	background-image: url(../img/photo4.jpeg);
+}
+
+.photo_5 {
+	background-image: url(../img/photo5.jpeg);
+}
+
+.photo_2,
+.photo_3,
+.photo_4,
+.photo_5 {
+	height: 80vh;
+}
+
+.bg_opaque {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 120px 30px;
+}
+
+.bg_opaque button {
+	color: whitesmoke;
+	border: 1px solid rgb(245, 245, 245);
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.bg_opaque p {
+	font-size: 18px;
+	line-height: 30px;
+	color: rgba(245, 245, 245, 0.74);
+	margin: 10px 0px;
+}
+
+.bg_opaque h4 {
+	font-size: 28px;
+	font-weight: 300;
+	color: whitesmoke;
+}
